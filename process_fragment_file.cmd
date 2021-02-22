@@ -1,0 +1,1 @@
+python process_fragment_file.py -i data\GSM4138898_scATAC_MPAL1_T1.fragments.tsv.gz -o data\GSM4138898_scATAC_MPAL1_T1.tsv -b 1000000 -f 10000 -g data\hg19_chrom_sizes.tsv
