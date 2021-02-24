@@ -13,3 +13,9 @@ Download [data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4138898) f
 
 ## Prepare genome
 Run `prep-genome.R`. You may need to install [BSgenome.Hsapiens.UCSC.hg19](http://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.html)
+
+## Find CNV
+Run `obatin-cnv.R`
+
+## Downstream analysis
+Run `MPAL1.ipynb`
