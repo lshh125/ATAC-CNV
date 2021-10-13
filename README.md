@@ -11,5 +11,9 @@ Download [data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4138898) f
 
 [Rstudio](https://rstudio.com/) is one of the most widely used IDE. The community version is open source. Jupyter also provides R kernel, but I do not have personal expeirence with it.
 
-## Prepare genome
-Run `prep-genome.R`. You may need to install [BSgenome.Hsapiens.UCSC.hg19](http://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.html)
+## Use CopyscAT to process data
+1. Run `prep-genome.R`. You may need to install [BSgenome.Hsapiens.UCSC.hg19](http://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.html)
+
+2. Run `process_fragment_file.cmd`. You will need Python.
+
+3. Run `obtain-cnv.R`.
